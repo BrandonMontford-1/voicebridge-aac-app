@@ -1,11 +1,51 @@
-# Sample Snack app
+# VoiceBridge AAC App
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+VoiceBridge is an assistive communication mobile application built with **React Native and Expo**. The app helps individuals with speech impairments, including people with Down syndrome, communicate by selecting phrases that are converted into speech.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+The goal of this project is to create a **simple, accessible interface** with large buttons and intuitive interactions so users can quickly build phrases and communicate in everyday situations.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+---
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Features
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+* Text-to-speech communication using Expo Speech
+* Customizable favorite phrases for quick access
+* Morning / Day / Night communication modes
+* Large accessible buttons designed for ease of use
+* Emoji-supported phrase building
+* Persistent storage using AsyncStorage
+* Clean and responsive mobile UI
+
+---
+
+## Tech Stack
+
+* React Native
+* Expo
+* JavaScript
+* AsyncStorage
+* Expo Speech API
+
+---
+
+## Project Structure
+
+App.js – Main application logic and UI
+index.js – Application entry point
+components/ – Reusable UI components
+assets/ – Images and icons used in the app
+app.json – Expo configuration
+package.json – Project dependencies
+
+---
+
+## Purpose
+
+VoiceBridge was created to explore **accessible mobile application development** and demonstrate how technology can help individuals communicate more easily in their daily lives.
+
+---
+
+## Author
+
+Brandon Montford
+Computer Science Student – Concordia University Chicago
